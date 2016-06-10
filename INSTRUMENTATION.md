@@ -10,7 +10,7 @@ For all the instrumentation configurations you need to perform you will need to 
 The first thing to do is to create a new environment that will be used by the inspectIT agent that runs within the sample application. From the ![Instrumentation Manager](images/compass.png?raw=true) **Instrumentation Manager** view click on the ![Add](images/add_obj.gif?raw=true) *Add* menu item and select the *Create Environment* option. Define the environment name (for example *DVD Store [dev]* or any that you like) and click on *Finish*.
 
 You will notice that created Environment comes with some default settings.  For example several common profiles are already selected:
- - **[Common] Exclude classes** - defines the default exclude classes patterns. This profile should always be included to insure the correct functioning of the inspectIT agent.
+ - **[Common] Exclude classes** - defines the default exclude classes patterns. This profile should always be included to ensure the correct functioning of the inspectIT agent.
  - **[Common] HTTP** - defines configuration for instrumenting the HTTP calls. As our application is web based, we will keep this profile included.
  - **[Commons] SQL** - defines configuration for instrumenting database calls. As out application uses H2 database in the back-end, we will also keep this profile included.
 
